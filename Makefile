@@ -1,10 +1,8 @@
-start: update enter run
+start: update run
 
 update:
 	git pull
 
-enter:
-	. env/bin/activate;
 
 run:
-	python3 main.py
+	./bin/python3 main.py
