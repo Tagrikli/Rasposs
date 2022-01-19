@@ -4,7 +4,7 @@ update:
 	git pull
 
 enter:
-	source "./env/bin/activate";
+	. env/bin/activate";
 
 run:
 	python3 main.py
