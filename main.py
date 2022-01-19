@@ -1,3 +1,5 @@
+#!./env/python
+
 from pydbus import SystemBus
 
 bus = SystemBus()
